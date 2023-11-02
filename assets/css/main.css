@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#coffee {
+  width: 100%;
+  height: 655px;
+  background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-bacground-img-2.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.corretto {
+  width: 95%;
+  height: 655px;
+  position: relative;
+}
+.corretto .navbar {
+  width: 100%;
+  height: 100px;
+}
+
+.logo img {
+  width: 140px;
+  height: 70px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+.nav a {
+  color: white;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+.nav a:hover {
+  color: white;
+}
+
+.icons {
+  display: flex;
+  gap: 30px;
+}
+.icons i {
+  color: white;
+  cursor: pointer;
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  background: none;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  position: absolute;
+  right: 20px;
+}
+.card .card-img-top {
+  width: 120px;
+  height: 120px;
+}
+.card .card-img-bottom {
+  width: 120px;
+  height: 20px;
+}
+.card .card-body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.card .card-body h1 {
+  font-size: 50px;
+}
+.card .btn {
+  width: 200px;
+  height: 60px;
+  background: none;
+  border: 2px solid white;
+  padding-top: 15px;
+  font-size: 17px;
+  font-weight: 600;
+}
+.card .btn:hover {
+  background-color: rgb(247, 180, 98);
+}
+
+.dropdown-menu {
+  background-color: rgb(19, 8, 8);
+}
