@@ -39,7 +39,7 @@
   color: white;
   font-size: 15px;
   font-family: "Open Sans", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
 }
 .nav a:hover {
   color: white;
@@ -102,4 +102,91 @@
 
 .dropdown-menu {
   background-color: rgb(19, 8, 8);
+}
+
+#our-delicious-offer .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 650px;
+}
+#our-delicious-offer .our-offer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+#our-delicious-offer .our-offer h1 {
+  font-weight: 400;
+  font-weight: 35px;
+  font-family: Marcellus, sans-serif;
+}
+#our-delicious-offer .our-offer p {
+  width: 450px;
+  font-size: 18px;
+}
+#our-delicious-offer .our-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+#our-delicious-offer .our-items img {
+  padding: 10px;
+}
+#our-delicious-offer .our-items h1 {
+  font-size: 22px;
+  font-weight: 400;
+}
+#our-delicious-offer .our-items p {
+  text-align: center;
+}
+
+#coffee-herald {
+  background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/new-new-h1-bacground-img-3.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 0px;
+}
+#coffee-herald .herald {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+#coffee-herald .herald h1 {
+  font-weight: 400;
+  font-weight: 35px;
+  font-family: Marcellus, sans-serif;
+}
+#coffee-herald .herald p {
+  width: 450px;
+  font-size: 18px;
+}
+#coffee-herald .herald-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+#coffee-herald .herald-items img {
+  width: 100%;
+  padding: 10px;
+}
+#coffee-herald .herald-items h1 {
+  font-size: 22px;
+  font-weight: 400;
+}
+#coffee-herald .herald-items p {
+  text-align: center;
+}
+#coffee-herald .herald-items a {
+  display: flex;
 }
