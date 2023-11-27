@@ -62,10 +62,9 @@
 .card {
   background: none;
   color: white;
-  text-align: center;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: end;
   gap: 20px;
   position: absolute;
   right: 20px;
@@ -104,6 +103,10 @@
   background-color: rgb(19, 8, 8);
 }
 
+#our-delicious-offer {
+  width: 100%;
+  height: auto;
+}
 #our-delicious-offer .container {
   display: flex;
   flex-direction: column;
@@ -116,6 +119,9 @@
   align-items: center;
   gap: 10px;
   margin-bottom: 20px;
+}
+#our-delicious-offer .our-offer img {
+  max-width: 100%;
 }
 #our-delicious-offer .our-offer h1 {
   font-weight: 400;
@@ -134,6 +140,7 @@
 }
 #our-delicious-offer .our-items img {
   padding: 10px;
+  max-width: 100%;
 }
 #our-delicious-offer .our-items h1 {
   font-size: 22px;
@@ -173,8 +180,10 @@
 #coffee-herald .herald-items {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 10px;
+}
+#coffee-herald .herald-items p {
+  color: grey;
 }
 #coffee-herald .herald-items img {
   width: 100%;
@@ -184,9 +193,254 @@
   font-size: 22px;
   font-weight: 400;
 }
-#coffee-herald .herald-items p {
-  text-align: center;
-}
 #coffee-herald .herald-items a {
   display: flex;
+  gap: 8px;
+}
+#coffee-herald .herald-items a p {
+  color: black;
+}
+
+#bestCoffee {
+  width: 100%;
+  height: 350px;
+  background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-bacground-img-2.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#text-items .text-item {
+  text-align: center;
+  gap: 20px;
+  padding: 20px 0px;
+}
+#text-items .text-item p {
+  color: grey;
+}
+#text-items .text-item h1 {
+  color: #BE9C79;
+  padding: 20px 0px;
+}
+#text-items .text-item h3 {
+  color: #262626;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+#OurOnlineShop {
+  background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-bacground-img-1.jpg);
+  background-size: cover;
+  padding: 25px 0px;
+}
+#OurOnlineShop .our-shop {
+  text-align: center;
+  padding: 10px 0px;
+  margin: 20px 0px;
+}
+#OurOnlineShop .our-shop img {
+  margin: 15px 0px;
+}
+#OurOnlineShop .our-shop h1 {
+  font-weight: 400;
+  font-size: 40px;
+  margin-top: 15px;
+}
+#OurOnlineShop .our-shop p {
+  color: grey;
+  font-size: 20px;
+  width: 55%;
+  margin: auto;
+}
+#OurOnlineShop .shop-items {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  position: relative;
+}
+#OurOnlineShop .shop-items h1 {
+  font-size: 22px;
+  font-weight: 300;
+}
+#OurOnlineShop .shop-items h1 :hover {
+  color: #BE9C79;
+}
+#OurOnlineShop .shop-items img {
+  max-width: 100%;
+  margin: 20px 0px;
+}
+#OurOnlineShop .shop-items p {
+  color: grey;
+}
+#OurOnlineShop .shop-items .hoverText {
+  color: white;
+  position: absolute;
+  top: 120px;
+  left: 45px;
+  display: none;
+}
+#OurOnlineShop .shop-items .hoverText:hover button {
+  background-color: black;
+  display: block;
+}
+#OurOnlineShop .shop-items .hoverText button {
+  padding: 12px 25px;
+  background-color: #BE9C79;
+  border: none;
+  font-size: 13px;
+  font-weight: 600;
+  color: white;
+  width: 170px;
+  height: 50px;
+}
+
+#OurSweetGallery {
+  text-align: center;
+  padding: 20px 0px;
+}
+#OurSweetGallery .our-sweet h1 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-family: Marcellus, sans-serif;
+}
+#OurSweetGallery .our-sweet img {
+  padding-bottom: 10px;
+}
+#OurSweetGallery .our-sweet p {
+  padding-bottom: 10px;
+}
+
+#images img {
+  max-width: 100%;
+  padding: 10px 0px;
+}
+
+#logs {
+  padding: 20px 0px;
+}
+#logs .image {
+  width: 200px;
+  color: black;
+  padding: 20px 0px;
+}
+#logs .image img {
+  max-width: 100%;
+}
+
+#contact {
+  width: 100%;
+  height: 130px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/p2-background-img-1.jpg);
+  background-size: cover;
+}
+#contact .text {
+  margin-top: 20px;
+}
+#contact button {
+  font-size: 14px;
+  font-weight: 600;
+  width: 150px;
+  padding: 13px 0px;
+  border: none;
+  background-color: #BE9C79;
+  color: white;
+}
+#contact button:hover {
+  background-color: black;
+}
+
+#coretto-end {
+  background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/footer-top-img-1.jpg);
+  background-size: cover;
+  color: white;
+  padding: 20px 0px;
+}
+#coretto-end .end-items {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+#coretto-end .end-items img {
+  margin: 20px 0px;
+}
+#coretto-end .end-items h1 {
+  font-size: 22px;
+}
+#coretto-end .end-form h1 {
+  margin: 20px 0px;
+}
+#coretto-end .endLogo p {
+  padding: 0px 25px;
+}
+#coretto-end .endText:hover p {
+  color: #BE9C79;
+}
+#coretto-end .email {
+  margin-bottom: 20px;
+}
+#coretto-end .email i {
+  background-color: white;
+  color: black;
+  width: 50px;
+  height: 50px;
+}
+#coretto-end .email input {
+  width: 300px;
+  padding: 12px 10px;
+  background: none;
+  border: 1px solid white;
+  color: white;
+}
+
+footer {
+  width: 100%;
+  height: fit-content;
+  background-color: #121212;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+footer .footer-text {
+  color: white;
+  text-align: start;
+  margin-top: 20px;
+}
+footer .footer-text a {
+  color: white;
+  text-decoration: none;
+}
+footer .footer-text a:hover {
+  color: #BE9C79;
+}
+footer .footer-links {
+  margin-top: 20px;
+}
+footer .footer-links ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+footer .footer-links ul a {
+  text-decoration: none;
+  color: white;
+}
+footer .footer-links ul a:hover {
+  color: #BE9C79;
+}
+footer .footer-icons {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  justify-content: end;
+}
+footer .footer-icons i {
+  color: white;
+  font-size: 20px;
+}
+footer .footer-icons i:hover {
+  color: #BE9C79;
 }

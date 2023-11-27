@@ -68,10 +68,9 @@
 .card {
     background: none;
     color: white;
-    text-align: center;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
     gap: 20px;
     position: absolute;
     right: 20px;
@@ -117,6 +116,9 @@
 }
 
 #our-delicious-offer {
+    width: 100%;
+    height: auto;
+
     .container {
         display: flex;
         flex-direction: column;
@@ -131,13 +133,17 @@
         align-items: center;
         gap: 10px;
         margin-bottom: 20px;
-
-        h1{
-          font-weight: 400;
-          font-weight: 35px;
-          font-family: Marcellus,sans-serif;
+        img{
+            max-width: 100%;
         }
-        p{
+
+        h1 {
+            font-weight: 400;
+            font-weight: 35px;
+            font-family: Marcellus, sans-serif;
+        }
+
+        p {
             width: 450px;
             font-size: 18px;
         }
@@ -148,9 +154,10 @@
         flex-direction: column;
         align-items: center;
         gap: 10px;
-        
-        img{
+
+        img {
             padding: 10px;
+            max-width: 100%;
         }
 
         h1 {
@@ -164,7 +171,7 @@
     }
 }
 
-#coffee-herald{
+#coffee-herald {
     background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/new-new-h1-bacground-img-3.jpg);
     background-size: cover;
     display: flex;
@@ -172,35 +179,41 @@
     align-items: center;
     gap: 10px;
     padding: 20px 0px;
- 
 
-        .herald{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 10px;
-            margin-bottom: 20px;
-            margin-top: 20px;
-            padding-top: 20px;
-    
-            h1{
-              font-weight: 400;
-              font-weight: 35px;
-              font-family: Marcellus,sans-serif;
-            }
-            p{
-                width: 450px;
-                font-size: 18px;
-            }
 
-        }
-    .herald-items{
+    .herald {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 10px;
-        
-        img{
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding-top: 20px;
+
+        h1 {
+            font-weight: 400;
+            font-weight: 35px;
+            font-family: Marcellus, sans-serif;
+        }
+
+        p {
+            width: 450px;
+            font-size: 18px;
+        }
+
+    }
+
+    .herald-items {
+        display: flex;
+        flex-direction: column;
+        // align-items: center;
+        gap: 10px;
+
+        p {
+            color: grey;
+        }
+
+        img {
             width: 100%;
             padding: 10px;
         }
@@ -210,12 +223,313 @@
             font-weight: 400;
         }
 
-        p {
-            text-align: center;
-        }
-        a{
+
+        a {
             display: flex;
+            gap: 8px;
+
+            p {
+                color: black;
+            }
         }
     }
 
+}
+
+#bestCoffee {
+    width: 100%;
+    height: 350px;
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-bacground-img-2.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#text-items {
+    .text-item {
+        text-align: center;
+        gap: 20px;
+        padding: 20px 0px;
+
+        p {
+            color: grey;
+        }
+
+        h1 {
+            color: #BE9C79;
+            padding: 20px 0px;
+        }
+
+        h3 {
+            color: #262626;
+            font-size: 15px;
+            font-weight: 400;
+        }
+    }
+}
+
+#OurOnlineShop {
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-bacground-img-1.jpg);
+    background-size: cover;
+    ;
+    padding: 25px 0px;
+
+    .our-shop {
+        text-align: center;
+        padding: 10px 0px;
+        margin: 20px 0px;
+
+        img {
+            margin: 15px 0px;
+        }
+
+        h1 {
+            font-weight: 400;
+            font-size: 40px;
+            margin-top: 15px;
+        }
+
+        p {
+            color: grey;
+            font-size: 20px;
+            width: 55%;
+            margin: auto;
+        }
+    }
+
+    .shop-items {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        position: relative;
+
+        h1 {
+            font-size: 22px;
+            font-weight: 300;
+
+            & :hover {
+                color: #BE9C79;
+            }
+        }
+
+        img {
+            max-width: 100%;
+            margin: 20px 0px;
+
+            & :hover {}
+        }
+
+        p {
+            color: grey;
+        }
+
+        .hoverText {
+            color: white;
+            position: absolute;
+            top: 120px;
+            left: 45px;
+            display: none;
+
+            &:hover {
+
+                button {
+                    background-color: black;
+                    display: block;
+                }
+            }
+
+            button {
+                padding: 12px 25px;
+                background-color: #BE9C79;
+                border: none;
+                font-size: 13px;
+                font-weight: 600;
+                color: white;
+                width: 170px;
+                height: 50px;
+            }
+        }
+    }
+}
+
+#OurSweetGallery {
+    text-align: center;
+    padding: 20px 0px;
+
+    .our-sweet {
+        h1 {
+            padding-top: 20px;
+            padding-bottom: 10px;
+            font-family: Marcellus, sans-serif;
+        }
+
+        img {
+            padding-bottom: 10px;
+        }
+
+        p {
+            padding-bottom: 10px;
+        }
+    }
+}
+
+#images {
+    img {
+        max-width: 100%;
+        padding: 10px 0px;
+    }
+}
+
+#logs {
+    padding: 20px 0px;
+
+    .image {
+        width: 200px;
+        color: black;
+        padding: 20px 0px;
+
+        img {
+            max-width: 100%;
+        }
+    }
+}
+
+#contact {
+    width: 100%;
+    height: 130px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/p2-background-img-1.jpg);
+    background-size: cover;
+
+    .text {
+        margin-top: 20px;
+    }
+
+    button {
+        font-size: 14px;
+        font-weight: 600;
+        width: 150px;
+        padding: 13px 0px;
+        border: none;
+        background-color: #BE9C79;
+        color: white;
+
+        &:hover {
+            background-color: black;
+        }
+    }
+
+}
+
+#coretto-end{
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/footer-top-img-1.jpg);
+    background-size: cover;
+    color: white;
+    padding: 20px 0px;
+
+    .end-items{
+        display: flex;
+        flex-direction: column;
+        gap:30px;
+        img{
+            margin: 20px 0px;
+        }
+        h1{
+            font-size: 22px;
+        }
+    }
+    .end-form{
+        h1{
+            margin: 20px 0px;
+        }
+    }
+    .endLogo{
+        p{
+        padding: 0px 25px;
+           
+        }
+    }
+    .endText{
+       &:hover p{
+        color: #BE9C79;
+       }
+    }
+    .email{
+        margin-bottom: 20px;
+        i{
+            background-color: white;
+            color: black;
+            width: 50px;
+            height: 50px;
+        }
+
+      input{
+        width: 300px;
+        padding: 12px 10px;
+        background: none;
+        border: 1px solid white;
+        color: white;
+      }
+    }
+}
+footer{
+    width: 100%;
+    height: fit-content;
+    background-color: #121212;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+    .footer-text{
+        color: white;
+        text-align: start;
+        margin-top: 20px;
+        a{
+            color: white;
+            text-decoration: none;
+
+            &:hover{
+                color: #BE9C79;
+            }
+        }
+    }
+
+    .footer-links{
+        margin-top: 20px;
+       
+        ul{
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            a{
+                text-decoration: none;
+                color: white;
+
+                &:hover{
+                    color: #BE9C79;
+                }
+
+            }
+        }
+
+    }
+
+    .footer-icons{
+        margin-top: 20px;
+        display: flex;
+        gap: 20px;
+        justify-content: end;
+        
+       i{
+        color: white;
+        font-size: 20px;
+
+        &:hover{
+            color: #BE9C79;
+        }
+       }
+    }
 }
